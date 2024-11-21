@@ -1,0 +1,29 @@
+name: Run Automation Tests
+
+on:
+  push:
+    branches:
+      - main  # Trigger when code is pushed to the main branch
+  pull_request:  # Trigger on pull requests
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest  # Use the latest Ubuntu environment
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3  # Check out the repository code
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'  # Specify the Java version
+          distribution: 'temurin'
+
+      - name: Install Dependencies
+        run: mvn install  # Install Maven dependencies
+
+      - name: Run Tests
+        run: mvn test  # Run the test cases
