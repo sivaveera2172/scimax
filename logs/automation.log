@@ -1,0 +1,2 @@
+12:00:09.574 [main] INFO  testcases.TC_MC_001 - *** Clicking Login Button ***
+12:00:09.886 [main] INFO  testcases.TC_MC_001 - *** Successful login and clicking on Case Management and clicking MyCases ***

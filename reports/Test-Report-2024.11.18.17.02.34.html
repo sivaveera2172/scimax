@@ -1,0 +1,434 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>MedInquirer Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">MedInquirer Smoke Testing</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 18, 2024 05:02:34 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testcases.TC_MC_004</p>
+            <p class="text-sm">
+              <span>5:02:58 PM</span> / <span>00:00:00:005</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testcases.TC_MC_004</h5>
+<span class='badge badge-success'>11.18.2024 5:02:58 PM</span>
+<span class='badge badge-danger'>11.18.2024 5:02:58 PM</span>
+<span class='badge badge-default'>00:00:00:005</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:02:58 PM</td>
+        <td>
+          TC_MC_004_testCase got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:02:58 PM</td>
+        <td>
+          element click intercepted: Element <span class="plusminus2" id="pm" title="Expand"></span> is not clickable at point (24, 124). Other element would receive the click: <div class="popupProcessing">...</div>
+  (Session info: chrome=131.0.6778.70)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [73c74f6212a0008a0cdafde15e23f77e, clickElement {id=f.614698849B1DE63A662F351BE8AE52C0.d.B09430734C0D4707B68993C35C78A665.e.274}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.70, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\SIVAKU~1.VEE\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53000}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53000/devtoo..., se:cdpVersion: 131.0.6778.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (73c74f6212a0008a0cdafde15e23f77e)] -> xpath: //span[@id='pm']]
+Session ID: 73c74f6212a0008a0cdafde15e23f77e
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testcases.TC_MC_005</p>
+            <p class="text-sm">
+              <span>5:03:23 PM</span> / <span>00:00:00:001</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testcases.TC_MC_005</h5>
+<span class='badge badge-success'>11.18.2024 5:03:23 PM</span>
+<span class='badge badge-danger'>11.18.2024 5:03:23 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:23 PM</td>
+        <td>
+          TC_MC_005_testCase got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testcases.TC_MC_001</p>
+            <p class="text-sm">
+              <span>5:03:35 PM</span> / <span>00:00:00:000</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testcases.TC_MC_001</h5>
+<span class='badge badge-success'>11.18.2024 5:03:35 PM</span>
+<span class='badge badge-danger'>11.18.2024 5:03:35 PM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:03:35 PM</td>
+        <td>
+          TC_MC_001testCase got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:35 PM</td>
+        <td>
+          element click intercepted: Element <span>...</span> is not clickable at point (30, 9). Other element would receive the click: <img id="imgParentLogo" src="data:image/jpg;base64,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" class="pull-left">
+  (Session info: chrome=131.0.6778.70)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc66a46ed9b645a45e3564c94e7769ed, clickElement {id=f.00795B3DED58DAF88F8B89F0B7880D7C.d.CB78F9EB74C281DF5BEFEDD83D3D43A8.e.110}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.70, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\SIVAKU~1.VEE\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53128/devtoo..., se:cdpVersion: 131.0.6778.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fc66a46ed9b645a45e3564c94e7769ed)] -> xpath: //*[@id="MC"]/a/span]
+Session ID: fc66a46ed9b645a45e3564c94e7769ed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testcases.TC_MC_002</p>
+            <p class="text-sm">
+              <span>5:04:14 PM</span> / <span>00:00:00:001</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testcases.TC_MC_002</h5>
+<span class='badge badge-success'>11.18.2024 5:04:14 PM</span>
+<span class='badge badge-danger'>11.18.2024 5:04:14 PM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:04:14 PM</td>
+        <td>
+          TC_MC_002_testCase got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 18, 2024 05:02:34 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 18, 2024 05:04:15 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='50%'>
+<b>2</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='50%'><b>2</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='33%'><b>2</b> events passed</small></div>
+<div>
+<small data-tooltip='33%'><b>2</b> events failed,
+<b data-tooltip='%'>2</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"testcases.TC_MC_004":0.005,"testcases.TC_MC_005":0.001,"testcases.TC_MC_001":0,"testcases.TC_MC_002":0.001
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Application</td>
+<td>MedInquirer</td>
+</tr>
+<tr>
+<td>Module</td>
+<td>Admin</td>
+</tr>
+<tr>
+<td>Sub Module</td>
+<td>Customers</td>
+</tr>
+<tr>
+<td>Tester</td>
+<td>Siva Kumar Veera</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Windows 10</td>
+</tr>
+<tr>
+<td>Groups</td>
+<td>[Ljava.lang.String;@4ef782af</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 2,
+failEvents: 2,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 2
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

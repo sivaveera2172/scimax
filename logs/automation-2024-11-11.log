@@ -1,0 +1,56 @@
+16:44:16.874 [main] INFO  testcases.TC_MC_001 - **** Starting Test Case TC_MC_001 ****
+16:44:16.922 [main] INFO  testcases.TC_MC_001 - *** Entering User Name and Password ***
+16:44:17.485 [main] INFO  testcases.TC_MC_001 - *** Clicking Login Button ***
+16:44:18.852 [main] INFO  testcases.TC_MC_001 - *** Successful login and clicking on Case Management and clicking MyCases ***
+16:44:31.321 [main] INFO  testcases.TC_MC_001 - *** Successfully verified MyCases Page ***
+16:44:31.321 [main] INFO  testcases.TC_MC_001 - *** Clicking on 
+16:45:54.531 [main] INFO  testcases.TC_MC_001 - **** Starting Test Case TC_MC_001 ****
+16:45:54.578 [main] INFO  testcases.TC_MC_001 - *** Entering User Name and Password ***
+16:45:54.830 [main] INFO  testcases.TC_MC_001 - *** Clicking Login Button ***
+16:45:55.044 [main] INFO  testcases.TC_MC_001 - *** Successful login and clicking on Case Management and clicking MyCases ***
+16:45:59.492 [main] INFO  testcases.TC_MC_001 - *** Successfully verified MyCases Page ***
+16:45:59.492 [main] INFO  testcases.TC_MC_001 - *** Clicking on 
+17:16:30.790 [main] INFO  testcases.TC_MC_001 - **** Starting Test Case TC_MC_001 ****
+17:16:30.840 [main] INFO  testcases.TC_MC_001 - *** Entering User Name and Password ***
+17:16:31.407 [main] INFO  testcases.TC_MC_001 - *** Clicking Login Button ***
+17:16:31.911 [main] INFO  testcases.TC_MC_001 - *** Successful login and clicking on Case Management and clicking MyCases ***
+17:16:47.174 [main] INFO  testcases.TC_MC_001 - *** Successfully verified MyCases Page ***
+17:16:47.174 [main] INFO  testcases.TC_MC_001 - *** Clicking on 
+17:18:07.646 [main] INFO  testcases.TC_MC_001 - **** Starting Test Case TC_MC_001 ****
+17:18:07.690 [main] INFO  testcases.TC_MC_001 - *** Entering User Name and Password ***
+17:18:07.957 [main] INFO  testcases.TC_MC_001 - *** Clicking Login Button ***
+17:18:08.261 [main] INFO  testcases.TC_MC_001 - *** Successful login and clicking on Case Management and clicking MyCases ***
+17:18:12.325 [main] INFO  testcases.TC_MC_001 - *** Successfully verified MyCases Page ***
+17:18:12.325 [main] INFO  testcases.TC_MC_001 - *** Clicking on 
+17:19:40.284 [main] INFO  testcases.TC_MC_001 - **** Starting Test Case TC_MC_001 ****
+17:19:40.333 [main] INFO  testcases.TC_MC_001 - *** Entering User Name and Password ***
+17:19:40.593 [main] INFO  testcases.TC_MC_001 - *** Clicking Login Button ***
+17:19:40.847 [main] INFO  testcases.TC_MC_001 - *** Successful login and clicking on Case Management and clicking MyCases ***
+16:40:00.652 [main] INFO  testcases.TC_MC_001 - **** Starting Test Case TC_MC_001 ****
+16:40:00.698 [main] INFO  testcases.TC_MC_001 - *** Entering User Name and Password ***
+16:40:02.106 [main] INFO  testcases.TC_MC_001 - *** Clicking Login Button ***
+16:40:14.694 [main] INFO  testcases.TC_MC_001 - *** Successful login and clicking on Case Management and clicking MyCases ***
+16:40:25.335 [main] INFO  testcases.TC_MC_001 - *** Successfully verified MyCases Page ***
+16:40:25.335 [main] INFO  testcases.TC_MC_001 - *** Clicking on 
+16:41:03.524 [main] INFO  testcases.TC_MC_001 - **** Starting Test Case TC_MC_001 ****
+16:41:03.611 [main] INFO  testcases.TC_MC_001 - *** Entering User Name and Password ***
+16:41:03.930 [main] INFO  testcases.TC_MC_001 - *** Clicking Login Button ***
+16:41:04.441 [main] INFO  testcases.TC_MC_001 - *** Successful login and clicking on Case Management and clicking MyCases ***
+16:41:11.209 [main] INFO  testcases.TC_MC_001 - *** Successfully verified MyCases Page ***
+16:41:11.209 [main] INFO  testcases.TC_MC_001 - *** Clicking on 
+17:11:54.731 [main] INFO  testcases.TC_MC_001 - **** Starting Test Case TC_MC_001 ****
+17:11:54.787 [main] INFO  testcases.TC_MC_001 - *** Entering User Name and Password ***
+17:11:55.773 [main] INFO  testcases.TC_MC_001 - *** Clicking Login Button ***
+17:11:56.418 [main] INFO  testcases.TC_MC_001 - *** Successful login and clicking on Case Management and clicking MyCases ***
+17:12:21.129 [main] INFO  testcases.TC_MC_001 - *** Successfully verified MyCases Page ***
+17:12:21.129 [main] INFO  testcases.TC_MC_001 - *** Clicking on 
+17:21:11.232 [main] INFO  testcases.TC_MC_001 - **** Starting Test Case TC_MC_001 ****
+17:21:11.278 [main] INFO  testcases.TC_MC_001 - *** Entering User Name and Password ***
+17:21:11.533 [main] INFO  testcases.TC_MC_001 - *** Clicking Login Button ***
+17:21:11.749 [main] INFO  testcases.TC_MC_001 - *** Successful login and clicking on Case Management and clicking MyCases ***
+17:21:25.162 [main] INFO  testcases.TC_MC_001 - *** Successfully verified MyCases Page ***
+17:21:25.162 [main] INFO  testcases.TC_MC_001 - *** Clicking on 
+11:32:08.772 [main] INFO  testcases.TC_MC_001 - **** Starting Test Case TC_MC_001 ****
+11:32:08.815 [main] INFO  testcases.TC_MC_001 - *** Entering User Name and Password ***
+11:32:09.080 [main] INFO  testcases.TC_MC_001 - *** Clicking Login Button ***
+11:32:09.341 [main] INFO  testcases.TC_MC_001 - *** Successful login and clicking on Case Management and clicking MyCases ***
